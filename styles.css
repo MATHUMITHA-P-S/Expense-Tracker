@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1,h2 {
+    text-align: center;
+}
+ .input-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-section input,
+.input-section select,
+.input-section button {
+    padding: 8px;
+}
+
+.input-section button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    background-color: darkgreen;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
